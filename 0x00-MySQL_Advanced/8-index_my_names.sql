@@ -1,3 +1,3 @@
---create index on name
+-- create index on name
 CREATE INDEX idx_name_first
-ON names (LEFT(name, 1));
+ON names (name(1));
