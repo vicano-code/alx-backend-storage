@@ -88,4 +88,3 @@ class Cache:
             return self.get(key, fn=lambda x: int(x.decode('utf-8')))
         except (ValueError, AttributeError):
             return None
-
